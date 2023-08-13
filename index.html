@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html>
 <body>
+<!--HTML-->
 <button id="IOG" onclick="alert('ALERT! Old Gregg has hacked your computer!')">I'm Old Gregg!</button>
+<!--CSS-->
 <style>
   button {
   font-size: 4em;
   background-color: transparent;
 }
 </style>
+<!--JS-->
 <script>
-  btn = document.getElementById("IOG");
-btn.addEventListener("click", () => {
-  document.body.style.background = "olivedrab";
-});
+  function clickCheck(id){
+    document.getElementById(toString(id)).addEventListener("click", () => {
+      document.body.style.background = "olivedrab";
+    });
+  }
+
+  clickCheck(IOG)
 </script>
+
 </body>
 </html>
