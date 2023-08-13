@@ -2,7 +2,7 @@
 <html>
 <body>
 <!--HTML-->
-<button id="IOG" onclick=clickCheck()>I'm Old Gregg!</button>
+<button id="IOG" onclick=clickCheck(yellow)>I'm Old Gregg!</button>
 <!--CSS-->
 <style>
   #IOG {
@@ -12,9 +12,9 @@
 </style>
 <!--JS-->
 <script>
-  function clickCheck(){
+  function clickCheck(color){
     document.getElementById("IOG").addEventListener("click", () => {
-      document.body.style.background = "olivedrab";
+      document.body.style.background = color.toString();
     });
   }
 </script>
