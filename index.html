@@ -2,7 +2,7 @@
 <html>
 <body>
 <!--HTML-->
-<button id="IOG" onclick="alert('ALERT! Old Gregg has hacked your computer!')">I'm Old Gregg!</button>
+<button id="IOG" onclick="alert('ALERT! Old Gregg has hacked your device!')">I'm Old Gregg!</button>
 <!--CSS-->
 <style>
   button {
@@ -13,7 +13,7 @@
 <!--JS-->
 <script>
   function clickCheck(id){
-    document.getElementById(toString(id)).addEventListener("click", () => {
+    document.getElementById(id.toString()).addEventListener("click", () => {
       document.body.style.background = "olivedrab";
     });
   }
