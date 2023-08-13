@@ -5,7 +5,7 @@
 <button id="IOG" onclick="alert('ALERT! Old Gregg has hacked your computer!')">I'm Old Gregg!</button>
 <!--CSS-->
 <style>
-  button {
+  #IOG {
   font-size: 4em;
   background-color: transparent;
 }
@@ -13,12 +13,12 @@
 <!--JS-->
 <script>
   function clickCheck(id){
-    document.getElementById(toString(id)).addEventListener("click", () => {
+    document.getElementById(id).addEventListener("click", () => {
       document.body.style.background = "olivedrab";
     });
   }
 
-  clickCheck(IOG)
+  clickCheck("IOG");
 </script>
 
 </body>
