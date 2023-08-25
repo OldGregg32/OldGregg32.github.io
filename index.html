@@ -14,9 +14,7 @@
 <script>
   let colors = ["red","green","yellow","blue","black","orange","pink","purple"];
   function clickCheck(){
-    document.getElementById("IOG").addEventListener("click", () => {
-      document.body.style.background = colors[Math.floor(Math.random*colors.length)];
-    }
+    document.body.style.background = colors[Math.floor(Math.random()*colors.length)];
 </script>
 </body>
 </html>
