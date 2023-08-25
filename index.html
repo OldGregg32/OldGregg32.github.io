@@ -2,7 +2,7 @@
 <html>
 <body>
 <!--HTML-->
-<button id="IOG" onclick=clickCheck("yellow")>I'm Old Gregg!</button>
+<button id="IOG" onclick=clickCheck(colors[Math.floor(Math.random*colors.length)])>I'm Old Gregg!</button>
 <!--CSS-->
 <style>
   #IOG {
@@ -12,12 +12,10 @@
 </style>
 <!--JS-->
 <script>
+  let colors = ["red","green","yellow","blue","black","orange","pink","purple"];
   function clickCheck(color){
-    document.getElementById("IOG").addEventListener("click", () => {
-      document.body.style.background = color;
-    });
+    document.body.style.background = color;
   }
 </script>
-
 </body>
 </html>
