@@ -6,7 +6,7 @@ body {
     color: rgb(83, 83, 83);
     font-size: 30vh;
     text-decoration: none;
-    cursor: default;
+    cursor: text;
     }
   #errortype {
     color: rgb(83, 83, 83);
