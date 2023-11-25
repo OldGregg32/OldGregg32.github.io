@@ -11,30 +11,39 @@ h1 {
 
 #text_input {
   position: relative;
+  left: 7%;
+}
+
+.encrypt {
+  position: relative;
+  left: -16%;
+  top: 6%;
+  cursor: pointer;
+}
+
+.decrypt {
+  position: relative;
+  left: -22.85%;
+  top: 11%;
+  cursor: pointer;
+}
+
+#rot_num {
+  position: fixed;
+  top: 59.5%;
+  left: 56%;
+  width: 5vw;
 }
 
 #output_box {
   position: relative;
-  top: -9%;
-  left: 40%;
-  height: 25vh;
-  width: 20vw;
-  text-align: left;
-  text-indent: 1%;
-  background-color: rgb(255, 255, 255);
-}
-
-#output_text {
-  position: relative;
-  top: -4%;
-  left: -6.5%;
-  font-size: 5vh;
 }
 
 #result_button {
   position: relative;
   top: 0%;
-  left: 46%;
+  left: 46.5%;
+  top: -1.5%;
   display: flex;
   justify-content: center;
   align-items: center;
