@@ -14,7 +14,7 @@ function rot13(message){
     }).join('');
   }
 
-  document.getElementById("result_button").addEventListener("click", ()=> document.getElementById("output_box").innerHTML = rot13(input);
+  document.getElementById("result_button").addEventListener("click", ()=> document.getElementById("output_box").innerHTML = rot13(input));
   
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
