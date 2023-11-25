@@ -16,9 +16,9 @@ h1 {
 #output_box {
   position: relative;
   top: -9%;
-  left: 35%;
+  left: 40%;
   height: 25vh;
-  width: 30vw;
+  width: 20vw;
   text-align: left;
   text-indent: 1%;
   background-color: rgb(255, 255, 255);
@@ -40,7 +40,7 @@ h1 {
   align-items: center;
   width: 8vw;
   height: 5vh;
-  font-size: 5vw;
+  font-size: 5vh;
   border: 3px solid black;
 }
 
